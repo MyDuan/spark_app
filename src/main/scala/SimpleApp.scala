@@ -27,7 +27,7 @@ object SimpleApp {
       (3, "History")
     ).toDF("student_id", "major")
 
-    students.join(majors, Seq("student_id"), "inner")
+    students.crossJoin(majors)
   }
 
   def main(args: Array[String]) {
