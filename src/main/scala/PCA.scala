@@ -3,7 +3,6 @@ import org.apache.spark.mllib.linalg.Matrix
 import org.apache.spark.mllib.linalg.distributed.RowMatrix
 import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.mllib.clustering.KMeans
-import org.apache.spark.sql.SparkSession
 
 object PCA {
 

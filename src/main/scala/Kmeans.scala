@@ -1,4 +1,3 @@
-import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.SparkContext
 import org.apache.spark.mllib.clustering.KMeans
 import org.apache.spark.mllib.linalg.Vectors
