@@ -1,0 +1,5 @@
+package fm
+
+object FMModel {
+
+}
